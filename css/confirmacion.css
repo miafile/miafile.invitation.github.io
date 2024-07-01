@@ -1,16 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap");
+
 body {
   background: #ffc1cc;
   font-family: Arial, sans-serif;
 }
-.svg-container {
-  max-width: 100%;
-  height: auto;
-}
 
-.svg-container svg {
-  width: 100%;
-  height: auto;
-}
 .container {
   position: absolute;
   top: 50%;
@@ -33,9 +27,11 @@ h2 {
 h3 {
   color: #555;
   font-size: 1.2em;
+  font-family: "Playwrite US Modern", cursive;
 }
 
-p {
+p,
+h3 {
   color: #666;
   font-size: 1em;
 }
@@ -52,4 +48,23 @@ a {
 
 a:hover {
   background-color: #c30062;
+}
+
+@keyframes swing {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+#bannerImage {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: auto;
+  transform-origin: 50% 50%;
+  animation: swing 5s infinite ease-in-out;
 }
