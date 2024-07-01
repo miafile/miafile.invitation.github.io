@@ -52,8 +52,35 @@ function saveName() {
 window.onload = function () {
   const userName = localStorage.getItem("userName");
   if (userName) {
-    document.getElementById("userName").textContent = userName;
+    document.getElementById("userName").textContent = ", " + userName;
   } else {
-    document.getElementById("userName").textContent = "Invitado";
+    document.getElementById("userName").textContent = "";
   }
 };
+
+function startCountdown(targetDate) {
+  const endDate = new Date(targetDate).getTime();
+
+  const timer = setInterval(function () {
+    const now = new Date().getTime();
+    const distance = endDate - now;
+
+    if (distance < 0) {
+      clearInterval(timer);
+      document.getElementById("time").innerHTML = "¡El evento ha comenzado!";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("time").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  }, 1000);
+}
+
+startCountdown("July 13, 2024 17:00:00");
