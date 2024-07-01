@@ -17,7 +17,7 @@ Hello Kitty Fiesta es un proyecto interactivo y creativo diseñado para entusias
 
 ### Interfaz Principal
 
-![Interfaz](./img/screenshots/invitacion.png)
+![Interfaz](./img/screenshots/principal.png)
 
 ### Página de Confirmación
 
