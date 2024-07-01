@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap");
+
+body {
+  background: #ffc1cc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container,
+.container2,
+.container3 {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  border: 3px solid pink;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+a,
+input[type="submit"] {
+  display: block;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 10px;
+  background: #c30062;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: white;
+  font-size: medium;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+a:hover,
+input[type="submit"]:hover {
+  background-color: #ab0558;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+p {
+  color: #333;
+}
+
+.box {
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal-content {
+  background-color: #fff;
+  border: 3px solid pink;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  transform: scale(0.7);
+  opacity: 0;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: "Playwrite US Modern", cursive, Arial, sans-serif;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
