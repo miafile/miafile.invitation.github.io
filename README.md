@@ -1,14 +1,15 @@
-# Hello Kitty Fiesta
+# Party With Hello Kitty
 
 ## Descripción
 
-Hello Kitty Fiesta es un proyecto diseñado para crear invitaciones personalizadas de fiestas con temática de Hello Kitty. Este proyecto facilita la organización de eventos temáticos, permitiendo a los usuarios diseñar e imprimir sus propias invitaciones.
+Hello Kitty Fiesta es un proyecto interactivo y creativo diseñado para entusiasmar a los amantes de Hello Kitty con la posibilidad de diseñar sus propias invitaciones de fiesta. Este sistema no solo permite crear invitaciones personalizadas sino que también incorpora elementos lúdicos como la personalización interactiva de Hello Kitty, donde los usuarios pueden vestir a Hello Kitty arrastrando y soltando accesorios en un entorno virtual.
 
 ## Características
 
 - **Confirmación por correo:** Envía automáticamente las confirmaciones de asistencia al correo del organizador.
-- **Interactico con Helo kitty:** Permite personalizar a Hello Kitty arrastrando y soltando accesorios en un entorno interactivo.
+- **Interactico :** Permite personalizar a Hello Kitty arrastrando y soltando accesorios en un entorno interactivo.
 - **Integración con Google Maps:** Muestra la ubicación del evento directamente en la invitación.
+- **Cuenta Refresiva:** Un contador regresivo muestra cuánto tiempo falta para el evento.
 - **Diseño Responsivo:** Asegura que el sitio sea accesible y funcional en todos los dispositivos.
 - **Fácil Navegación:** Interfaz intuitiva que guía a los usuarios a través del proceso de creación de invitaciones.
 
@@ -16,11 +17,11 @@ Hello Kitty Fiesta es un proyecto diseñado para crear invitaciones personalizad
 
 ### Interfaz Principal
 
-![Interfaz](./img/screenshots/index.png)
+![Interfaz](./img/screenshots/interfaz.png)
 
 ### Página de Confirmación
 
-![Finalizada](./img/screenshots/confirmación.png)
+![Confirmación](./img/screenshots/confirmacion.png)
 
 ## Comenzando
 
