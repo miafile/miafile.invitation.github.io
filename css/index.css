@@ -9,13 +9,10 @@ body {
 
 .svg-container {
   width: 100%;
-  text-align: center;
-  margin-top: 20px;
+  height: auto;
 }
 
-.container,
-.container2,
-.container3 {
+.container {
   width: 90%;
   max-width: 300px;
   margin: 20px auto;
@@ -33,7 +30,7 @@ input[type="submit"] {
   cursor: pointer;
   margin-top: 5px;
   padding: 10px;
-  background: #c30062;
+  background: #e60073;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -50,7 +47,7 @@ input[type="email"] {
 
 a:hover,
 input[type="submit"]:hover {
-  background-color: #ab0558;
+  background-color: #e60073;
   color: white;
 }
 
