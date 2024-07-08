@@ -22,18 +22,20 @@ function showModal() {
   var modal = document.getElementById("modal");
   var modalContent = document.getElementById("modal-content");
   var countdownElement = document.getElementById("countdown");
-  var countdown = 15;
+  var countdown = 60;
 
   modal.style.display = "flex";
 
   var interval = setInterval(function () {
     countdownElement.textContent = countdown;
     countdown--;
-    if (countdown < 0) {
+    if (countdown <= 0) {
       clearInterval(interval);
       modalContent.style.opacity = 0;
       setTimeout(() => {
         modal.style.display = "none";
+        window.open("confirmacion.html", "_blank");
+        window.location.href = "confirmacion.html";
       }, 500);
     }
   }, 1000);
