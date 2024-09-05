@@ -68,10 +68,7 @@ function startCountdown(targetDate) {
     const distance = endDate - now;
 
     if (distance < 0) {
-      clearInterval(timer);
-      document.getElementById("time").innerHTML = "¡El evento ha comenzado!";
-      return;
-    }
+  
 
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor(
