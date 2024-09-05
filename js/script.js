@@ -85,4 +85,4 @@ function startCountdown(targetDate) {
   }, 1000);
 }
 
-startCountdown("July 13, 2024 17:00:00");
+startCountdown("November 15th, 2024 17:00:00");
