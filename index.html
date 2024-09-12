@@ -50,7 +50,13 @@
         style="font-family: 'Playwrite US Modern', cursive; font-size: 14px"
       >
         Tiempo restante hasta el evento: <br />
-        <strong><span id="time">04:00:00</span></strong>
+        version: "3.8"
+    environment:
+      TIMER_BACKGROUND: https://wallpaperplay.com/walls/full/0/7/6/29912.jpg
+      TIMER_TARGET: "Fri Oct 01 2021 15:33:36 GMT+0200"
+      TIMER_TITLE: "My next birthday" # Can be empty
+    ports:
+      - "3000:3000"        <strong><span id="time">04:00:00</span></strong>
       </div>
     </div>
     <div class="container">
